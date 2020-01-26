@@ -24,3 +24,10 @@ h5,
 h6 {
   font-family: "Roboto", sans-serif;
 }
+
+@media screen and (max-width: 991px) {
+  .profilepic {
+    width: 50%;
+    padding-bottom: 20px;
+  }
+}
