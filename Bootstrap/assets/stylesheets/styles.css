@@ -1,0 +1,29 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+a:link {
+  text-decoration-line: none;
+}
+a.btn {
+  font-size: small;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 991px) {
+  .profilepic {
+    width: 50%;
+    padding-bottom: 20px;
+  }
+  footer {
+    visibility: hidden;
+  }
+}
