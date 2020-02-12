@@ -2,8 +2,9 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-a:link {
+a {
   text-decoration-line: none;
+  color: #53bb84;
 }
 a.btn {
   font-size: small;
@@ -16,6 +17,11 @@ h4,
 h5,
 h6 {
   font-family: "Roboto", sans-serif;
+}
+
+h1,
+footer {
+  background-color: #56bb53;
 }
 
 @media screen and (max-width: 991px) {
