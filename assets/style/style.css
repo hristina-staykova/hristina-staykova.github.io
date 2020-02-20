@@ -1,0 +1,47 @@
+body {
+  background-color: #f5f6f7;
+  font-family: "Roboto Slab", serif;
+  color: black;
+}
+
+header {
+  background-image: url(../images/header-background.jpg);
+  background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #3f4314;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.nav a {
+  padding-right: 20px;
+}
+
+#about {
+  background-color: #9b9997;
+}
+
+#about a {
+  color: black;
+  font-size: medium;
+}
+
+#portfolio {
+  background-color: #e9c29a;
+}
+
+#contact {
+  background-color: #f5f6f7;
+}

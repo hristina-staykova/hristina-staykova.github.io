@@ -1,70 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hristina Staykova</title>
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap"
+      href="https://fonts.googleapis.com/css?family=Raleway:500|Roboto+Slab&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./assets/stylesheets/styles.css" />
-    <title>About Me</title>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <link rel="stylesheet" href="assets/style/style.css" />
   </head>
-
-  <body class="bg-light">
+  <body>
     <header>
-      <nav
-        class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-secondary"
-      >
-        <h1 class="text-white p-sm-2 m-0">Hristina Staykova</h1>
-        <div class="navbar">
-          <ul class="navbar-nav">
-            <a class="nav-link" href="#">About</a>
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-            <!-- <a class="nav-link" href="contact.html">Contact</a> -->
-          </ul>
+      <div class="hero is-fullheight">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+              Hristina Staykova
+            </h1>
+            <h2 class="subtitle">
+              Frontend/Fullstack Developer-To-Be
+            </h2>
+            <nav class="nav">
+              <a  href="#about">about</a>
+              <a  href="#portfolio">portfolio</a>
+              <a  href="#contact">contact</a>
+            </nav>
+          </div>
         </div>
-      </nav>
+      </div>
     </header>
 
-    <div class="container mt-sm-5 mb-sm-5 p-sm-4 bg-white">
-      <div class="row pb-sm-4">
-        <div class="col">
-          <h2>About me</h2>
+    <section class="section" id="about">
+      <h1 class="title">About</h1>
+      <div class="columns is-mobile">
+        <div class="column">
+          <p>
+            Hello world! My name is Hristina, an enthusiastic beginner web developer with a
+            lot of life and work experience in various areas and currently
+            residing in Berlin, Germany.
+            In the <a href="#portfolio" class="bio"> Portfolio</a> section
+            there is a preview of some of the projects that I have worked on during
+        </div>
+        <div class="column">
+          <p>
+            the wonderful 6 months at the first
+            ESMT Berlin Coding Bootcamp. I graduate in March, 2020, 
+            and I am excited to start this new career path in the world of web development!
+            Jump to my <a href="#contact" class="bio"> Contact</a> section if you want to get in touch, I will be happy to hear from you!
         </div>
       </div>
-      <div class="row">
-        <div class="col">
-          <img
-            class="float-sm-left mr-4 img-fluid profilepic"
-            src="assets/images/abstract.jpeg"
-            alt="Hristina Staykova"
-          />
-          <p class="text-justify mt-0 lead">
-            Hello! I am Hristina, an enthusiastic beginner web developer,
-            currently residing in Berlin, Germany.
-            <br />
-            <a href="portfolio.html">Here</a> is a preview of some of the
-            projects that I've worked on during the ESMT Berlin Coding Bootcamp.
-            You can find me and contact me on
-            <a href="https://github.com/hristina-staykova">GitHub </a> and
-            <a href="https://www.linkedin.com/in/hstaykova">LinkedIn</a> or at
-            <a href="mailto:hristina.staykova@gmail.com">
-              hristina.staykova@gmail.com </a
-            >.
-          </p>
+
+    </section>
+    <section class="section" id="portfolio">
+      <div class="columns">
+        <div class="column is-full">
+          <h1 class="title">
+            Portfolio 
+          </h1>
+          Under construction but <a class="nav-link" href="portfolio.html">here</a> is the old version of this section
         </div>
       </div>
-    </div>
-    <footer class="navbar fixed-bottom text-white">
-      Copyright 2020
-    </footer>
+      <!-- <div class="columns">
+
+        <div class="column is-3">
+          <div class="card">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">My Family Daily</p>
+                  <p class="subtitle is-6">JavaScript</p>
+                </div>
+              </div>
+              <div class="content">
+                Team project - message board with authorization. JavaScript, Node.js, Expess.js, MySQL
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-3">
+          <div class="card">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Developer Profile Generator
+                  </p>
+                  <p class="subtitle is-6">Node.js</p>
+                </div>
+              </div>
+              <div class="content">
+                A command-line application that dynamically generates a PDF profile from a GitHub username.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-3">
+          <div class="card">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Day Planner</p>
+                  <p class="subtitle is-6">JavaScript</p>
+                </div>
+              </div>
+              <div class="content">
+                Simple calendar application that allows the user to save events for each hour of the day. 
+                The app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="column">
+        <h1 class="title">
+          Contact
+        </h1 class="title">
+        <p>
+          <ul>
+          <li><a href="https://github.com/hristina-staykova"><i class="fab fa-github"></i>
+            GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/hstaykova/"
+            ><i class="fab fa-linkedin"></i> LinkedIn</a>
+          </li>
+          <li>
+          <a href="mailto:hristina.staykova@gmail.com"><i class="fas fa-envelope-square"></i>
+            hristina.staykova@gmail.com
+          </a>
+        </li>
+        </ul>
+        </p>
+      </div>
+    </section>
+    <footer class="has-text-centered"><a href="https://bulma.io" target="_blank">
+      <img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+      </a></footer>
   </body>
 </html>
